@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - This program prints a sentence using the c language puts
+* main - This program prints a sentence using the c language puts
 * Return: 0
 */
 int main(void)
