@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * main - this c program prints a sentence with special charactres included to the standard error
+ * main - this c program prints a sentence to the standard error
  * Return: 1
  */
 int main(void)
