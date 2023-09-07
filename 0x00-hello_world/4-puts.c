@@ -1,4 +1,4 @@
-#include <studio.h>
+#include <stdio.h>
 /**
  * This program prints a sentence using the c language puts
 */
