@@ -13,9 +13,9 @@ int main(void)
 
 	while (i < 26)
 	{
-		putschar(alp[i]);
+		putchar(alp[i]);
 		i++;
 	}
-	putschar('\n');
+	putchar('\n');
 	return (0);
 }
