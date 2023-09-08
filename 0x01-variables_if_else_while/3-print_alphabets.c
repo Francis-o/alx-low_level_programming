@@ -1,6 +1,6 @@
+#include <ctype.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <ctype.h>
 
 /**
  * main - prints lower and upper alphabets
@@ -22,7 +22,7 @@ int main(void)
 		{
 			putchar(toupper(alph[i]));
 		}
-		i++;
+	        i++;
 	}
 	putchar('\n');
 	return (0);
