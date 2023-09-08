@@ -13,7 +13,7 @@ int main(void)
 
 	while (i < 26)
 	{
-		if (alph[i] != "e" || alph[i] != 'q')
+		if (alph[i] != 'e' || alph[i] != 'q')
 			putchar(alph[i]);
 		i++;
 	}
