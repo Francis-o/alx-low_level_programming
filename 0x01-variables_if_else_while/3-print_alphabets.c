@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <ctype.h>
 
 /**
  * main - prints lower and upper alphabets
@@ -11,7 +12,7 @@ int main(void)
 	char alph[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i = 0;
 
-	while (i < 52, i++)
+	while (i < 52; i++)
 	{
 		if (i < 26)
 		{
