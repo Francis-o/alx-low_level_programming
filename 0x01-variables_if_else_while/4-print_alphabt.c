@@ -13,7 +13,7 @@ int main(void)
 
 	while (i < 26)
 	{
-		if (i == 'q' or i == 'e')
+		if (i == 'q' || i == 'e')
 		{
 			continue;
 		}
