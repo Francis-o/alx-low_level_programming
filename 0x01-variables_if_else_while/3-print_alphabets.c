@@ -1,4 +1,3 @@
-#include <ctype.h>
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -9,19 +8,12 @@
 
 int main(void)
 {
-	char alph[26] = "abcdefghijklmnopqrstuvwxyz";
+	char alph[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int i = 0;
 
 	while (i < 52)
 	{
-		if (i < 26)
-		{
-			putchar(alph[i]);
-		}
-		else
-		{
-			putchar(toupper(alph[i]));
-		}
+		putchar(alph[i]);
 	        i++;
 	}
 	putchar('\n');
