@@ -8,13 +8,13 @@
 
 int main(void)
 {
-	char alph[26] = "abcdfghijklmnoprstuvwxyz";
+	char alph[26] = "abcdfghijklmnoprstuvwxyz\n";
 	int i = 0;
 
 	while (i < 26)
 	{
 		putchar(alph[i]);
-		i++;	
+		i++;
 	}
 	putchar('\n');
 	return (0);
