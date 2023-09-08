@@ -1,19 +1,22 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 /**
- * main - prints lower alphabets except e and q
+ * main - prints lower alphabets without q and e
+ *
  * Return: 0
  */
-
 int main(void)
 {
-	char alph[26] = "abcdfghijklmnoprstuvwxyz\n";
-	int i = 0;
+	int i = 97;
 
-	while (i < 26)
+	while ( i < 123)
 	{
-		putchar(alph[i]);
+		if (i != 101 && i != 113)
+		{
+			putchar(i);
+		}
 		i++;
 	}
 	putchar('\n');
