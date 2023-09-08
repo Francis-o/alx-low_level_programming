@@ -12,7 +12,7 @@ int main(void)
 	char alph[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i = 0;
 
-	while (i < 52; i++)
+	while (i < 52)
 	{
 		if (i < 26)
 		{
@@ -22,6 +22,7 @@ int main(void)
 		{
 			putchar(toupper(alph[i]));
 		}
+		i++;
 	}
 	putchar('\n');
 	return (0);
