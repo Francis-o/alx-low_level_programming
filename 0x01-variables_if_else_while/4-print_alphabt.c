@@ -13,14 +13,8 @@ int main(void)
 
 	while (i < 26)
 	{
-		if (i == 'q' || i == 'e')
-		{
-			continue;
-		}
-		else
-		{
+		if (alph[i] != "e" || alph[i] != 'q')
 			putchar(alph[i]);
-		}
 		i++;
 	}
 	putchar('\n');
