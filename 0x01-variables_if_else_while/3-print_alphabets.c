@@ -14,7 +14,7 @@ int main(void)
 	while (i < 52)
 	{
 		putchar(alph[i]);
-	        i++;
+		i++;
 	}
 	putchar('\n');
 	return (0);
