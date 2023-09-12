@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*
+/**
  * main - Task 13
  * Description -  prints multiples of 3 and 5 below 1024
  * Return: 0
