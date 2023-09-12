@@ -4,7 +4,7 @@
  * _abs - Task 6
  * Description - Returns absolute value of number
  * @n: number
- * Returns: integer
+ * Return: integer
  */
 
 int _abs(int n)
