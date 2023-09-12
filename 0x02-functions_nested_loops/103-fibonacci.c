@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * 103-finonacci - Task 15
+ * main - Task 15
  * Description - finds and prints the sum of the even-valued terms
  * Return: 0
  */
@@ -10,6 +10,7 @@ int main(void)
 {
 	int i;
 	unsigned long int j, k, next, sum;
+
 	j = 1;
 	k = 2;
 	sum = 0;

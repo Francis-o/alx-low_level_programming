@@ -3,9 +3,9 @@
 /**
  * main - Task 14
  * Decription -  Prints first 50 Fibonacci numbers
- *
  * Return: 0
  */
+
 int main(void)
 {
 	int count;
@@ -24,4 +24,3 @@ int main(void)
 	}
 	return (0);
 }
-
