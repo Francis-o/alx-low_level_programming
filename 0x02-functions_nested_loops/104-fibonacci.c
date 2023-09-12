@@ -1,8 +1,7 @@
 #include <stdio.h>
-
 /**
- * main - writes fibonacci number
- * Return:  0
+ * main - prints first 100 fibonacci numbers
+ * Return: 0
  */
 
 int main(void)
@@ -15,7 +14,7 @@ int main(void)
 	unsigned long int bef2;
 	unsigned long int aft1;
 	unsigned long int aft2;
-
+	
 	printf("%lu", bef);
 	for (i = 1; i < 91; i++)
 	{
