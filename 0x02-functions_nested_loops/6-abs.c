@@ -3,7 +3,7 @@
 /**
  * _abs - Task 6
  * Description - Returns absolute value of number
- * @int: number
+ * @n: number
  * Returns: integer
  */
 
