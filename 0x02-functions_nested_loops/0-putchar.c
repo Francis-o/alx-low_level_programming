@@ -1,7 +1,8 @@
 #include "main.h"
 
 /*
- * main - The program prints _putchar with a new line
+ * main - Task 0
+ * Description -The program prints _putchar with a new line
  * 
  * Return: 0
  */
