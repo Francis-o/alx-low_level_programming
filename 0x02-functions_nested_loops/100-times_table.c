@@ -1,4 +1,4 @@
-#include "mian.h"
+#include "main.h"
 
 /**
  * print_times_table - Task 100
