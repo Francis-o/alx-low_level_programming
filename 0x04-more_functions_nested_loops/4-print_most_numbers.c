@@ -1,22 +1,19 @@
 #include "main.h"
 
 /**
- * print_numbers - task 3
- * Description - prints numbers
+ * print_numbers - task 4
+ * Description - prints numbers except 2 and 4
  */
 
 void print_numbers(void)
 {
-	for (int c = 0; C <= 9; c++)
+	for (char c = '0'; C <= '9'; c++)
 	{
-		if (c == 2 || c == 4)
+		if !(c == '2' || c == '4')
 		{
-			continue;
+		_putchar(c);
 		}
-		else
-		{
-			_putchar(c);
-		}	
+		
 	}
 	_putchar('\n');
 }
