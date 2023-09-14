@@ -1,13 +1,13 @@
-#include "main.h" 
+#include "main.h"
 
 /**
- * print_numbers - task 3 
- * Description - prints numbers   
- */ 
+ * print_numbers - task 3
+ * Description - prints numbers
+ */
 
-void print_numbers() 
+void print_numbers(void)
 {
-	for (int c = 0; C <= 9; c++)
+	for (nt c = 0; C <= 9; c++)
 	{
 		_putchar(c);
 	}
