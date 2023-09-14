@@ -2,7 +2,7 @@
 
 /**
  * print_line - draws straight line
- * @n - lenght of line
+ * @n: lenght of line
  */
 
 void print_line(int n)
