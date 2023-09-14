@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - This programs prints fizz or buzz depending on number
+ * main - Task 9
+ * Description - This programs prints fizz or buzz depen number
  * Return: 0
  */
 
@@ -29,7 +30,5 @@ int main(void)
 		}
 	}
 	printf("\n");
-
 	return (0);
 }
-
