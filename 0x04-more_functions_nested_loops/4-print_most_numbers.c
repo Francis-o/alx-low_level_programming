@@ -9,7 +9,14 @@ void print_numbers(void)
 {
 	for (int c = 0; C <= 9; c++)
 	{
-		_putchar(c);
+		if (c == 2 || c == 4)
+		{
+			continue;
+		}
+		else
+		{
+			_putchar(c);
+		}	
 	}
 	_putchar('\n');
 }
