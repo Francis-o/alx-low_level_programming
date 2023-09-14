@@ -2,7 +2,7 @@
 
 /**
  * print_diagonal - This program prints diagonal line
- * @n - the number of diagonal lines
+ * @n: the number of diagonal lines
  */
 
 void print_diagonal(int n)
