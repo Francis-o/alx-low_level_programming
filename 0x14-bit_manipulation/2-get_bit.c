@@ -1,7 +1,7 @@
 #include"main.h"
 
 /**
- * get_ - gets value of a bit at a given index
+ * get_bit - gets value of a bit at a given index
  * @n: number to check bits in
  * @index: index at which to check bit
  * Return: bit value else -1
